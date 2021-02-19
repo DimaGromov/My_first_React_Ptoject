@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import ava from './Kuri.png';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>
+        Name: Скотт Пилигрим
+    </h1>
+      <div class="layer1">
+        <div class="layer2">
+          <img src = {ava} class = "App-logo" />
+        </div>
+        <div class="layer3">
+          <p class="bio">Bio:</p>
+          <p class="text">
+            Скотт Пилигрим в свои 23 года, живёт в большом городе со своим соседом геем. Он просто пытается
+            разобраться в
+            этом безумном мире. А ещё он играет в группе. Он ленивый и любит играть в видеоигры. Скотту Пилигриму
+            нравится
+            новая девушка в городе, Рамона Флауэрс, но, чтобы завоевать ее сердце, он должен победить ее семь
+            бывших. Семь!
+            Злобных! Бывших! Лукас - качок! Тодд играет на басу с психическими силами! А ещё есть близнецы! А ещё
+            Мэтью
+            Патель - настоящий парень из Индии! А также множество других событий!
+            </p>
+        </div>
+      </div>
     </div>
   );
 }
